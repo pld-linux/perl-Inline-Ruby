@@ -1,9 +1,10 @@
 #
 # Conditional build:
 # _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Inline
-%define		pname	Ruby
+%define		pnam	Ruby
 Summary:	Inline::Ruby Perl module
 Summary(cs):	Modul Inline::Ruby pro Perl
 Summary(da):	Perlmodul Inline::Ruby
@@ -22,11 +23,11 @@ Summary(sv):	Inline::Ruby Perlmodul
 Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::Ruby
 Summary(zh_CN):	Inline::Ruby Perl Ä£¿é
 Name:		perl-Inline-Ruby
-Version:	0.01
-Release:	2
+Version:	0.02
+Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
+Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Inline >= 0.42
 BuildRequires:	rpm-perlprov >= 3.0.3-16
@@ -42,7 +43,7 @@ Modu³ Inline::Ruby - pozwalaj±cy na pisanie procedur i klas Perla w
 Rubym.
 
 %prep
-%setup -q -n %{pdir}-%{pname}-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL </dev/null
