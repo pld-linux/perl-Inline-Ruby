@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Inline
-%define	pnam	Ruby
+%define		pdir	Inline
+%define		pnam	Ruby
 Summary:	Inline::Ruby - write Perl subroutines and classes in Ruby
 Summary(pl):	Inline::Ruby - pisanie funkcji i klas Perla w jêzyku Ruby
 Name:		perl-Inline-Ruby
