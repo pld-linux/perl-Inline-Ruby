@@ -14,7 +14,7 @@ Summary(fr):	Module Perl Inline::Ruby
 Summary(it):	Modulo di Perl Inline::Ruby
 Summary(ja):	Inline::Ruby Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Inline::Ruby ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Inline::Ruby
+Summary(nb):	Perlmodul Inline::Ruby
 Summary(pl):	Modu³ Perla Inline::Ruby
 Summary(pt):	Módulo de Perl Inline::Ruby
 Summary(pt_BR):	Módulo Perl Inline::Ruby
