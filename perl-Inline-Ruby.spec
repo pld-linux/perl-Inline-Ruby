@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl Inline::Ruby
 Summary(zh_CN):	Inline::Ruby Perl дё©И
 Name:		perl-Inline-Ruby
 Version:	0.02
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
