@@ -15,8 +15,8 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	decffede80bc61e9772068a6424eb3ac
-BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Inline >= 0.42
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	ruby-devel >= 1:1.6.3
 Requires:	ruby >= 1:1.6.3
@@ -28,8 +28,11 @@ dynamically translates the parameters and return values into native data
 types for both languages -- and it knows how to "wrap" most other types
 of data.
 
-# %description -l pl
-# TODO
+%description -l pl
+Inline::Ruby pozwala na pisanie funkcji i klas Perla w jêzyku Ruby.
+Dynamicznie t³umaczy parametry i zwracane warto¶ci na typy danych
+natywne dla obu jêzyków oraz wie, jak przekszta³ciæ wiêkszo¶æ innych
+typów danych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
