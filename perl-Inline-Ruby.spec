@@ -1,11 +1,29 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Inline
-%define	pname	Ruby
-Summary:	Inline::Ruby perl module
-Summary(pl):	Modu³ perla Inline::Ruby
+%define		pdir	Inline
+%define		pname	Ruby
+Summary:	Inline::Ruby Perl module
+Summary(cs):	Modul Inline::Ruby pro Perl
+Summary(da):	Perlmodul Inline::Ruby
+Summary(de):	Inline::Ruby Perl Modul
+Summary(es):	Módulo de Perl Inline::Ruby
+Summary(fr):	Module Perl Inline::Ruby
+Summary(it):	Modulo di Perl Inline::Ruby
+Summary(ja):	Inline::Ruby Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Inline::Ruby ÆŞ ¸ğÁÙ
+Summary(no):	Perlmodul Inline::Ruby
+Summary(pl):	Modu³ Perla Inline::Ruby
+Summary(pt):	Módulo de Perl Inline::Ruby
+Summary(pt_BR):	Módulo Perl Inline::Ruby
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Inline::Ruby
+Summary(sv):	Inline::Ruby Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::Ruby
+Summary(zh_CN):	Inline::Ruby Perl Ä£¿é
 Name:		perl-Inline-Ruby
 Version:	0.01
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
@@ -28,7 +46,8 @@ Rubym.
 
 %build
 perl Makefile.PL </dev/null
-%{__make}
+%{__make} OPTIMIZE="%{rpmcflags}"
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
