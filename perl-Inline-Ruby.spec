@@ -5,23 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Inline
 %define	pnam	Ruby
-Summary:	Inline::Ruby Perl module
-Summary(cs):	Modul Inline::Ruby pro Perl
-Summary(da):	Perlmodul Inline::Ruby
-Summary(de):	Inline::Ruby Perl Modul
-Summary(es):	Módulo de Perl Inline::Ruby
-Summary(fr):	Module Perl Inline::Ruby
-Summary(it):	Modulo di Perl Inline::Ruby
-Summary(ja):	Inline::Ruby Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Inline::Ruby ÆÞ ¸ðÁÙ
-Summary(nb):	Perlmodul Inline::Ruby
-Summary(pl):	Modu³ Perla Inline::Ruby
-Summary(pt):	Módulo de Perl Inline::Ruby
-Summary(pt_BR):	Módulo Perl Inline::Ruby
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Inline::Ruby
-Summary(sv):	Inline::Ruby Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::Ruby
-Summary(zh_CN):	Inline::Ruby Perl Ä£¿é
+Summary:	Inline::Ruby - write Perl subroutines and classes in Ruby
+Summary(pl):	Inline::Ruby - pisanie funkcji i klas Perla w jêzyku Ruby
 Name:		perl-Inline-Ruby
 Version:	0.02
 Release:	3
@@ -38,11 +23,13 @@ Requires:	ruby >= 1:1.6.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Inline::Ruby - Write Perl subroutines and classes in Ruby.
+Inline::Ruby lets you write Perl subroutines and classes in Ruby. It
+dynamically translates the parameters and return values into native data
+types for both languages -- and it knows how to "wrap" most other types
+of data.
 
-%description -l pl
-Modu³ Inline::Ruby - pozwalaj±cy na pisanie procedur i klas Perla w
-Rubym.
+# %description -l pl
+# TODO
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
