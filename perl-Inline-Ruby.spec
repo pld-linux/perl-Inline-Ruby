@@ -33,8 +33,8 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Inline >= 0.42
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	ruby >= 1.6.3
-Requires:	ruby >= 1.6.3
+BuildRequires:	ruby >= 1:1.6.3
+Requires:	ruby >= 1:1.6.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
