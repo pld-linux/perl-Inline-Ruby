@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Inline
-%define		pnam	Ruby
+%define	pdir	Inline
+%define	pnam	Ruby
 Summary:	Inline::Ruby Perl module
 Summary(cs):	Modul Inline::Ruby pro Perl
 Summary(da):	Perlmodul Inline::Ruby
