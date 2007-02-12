@@ -6,7 +6,7 @@
 %define		pdir	Inline
 %define		pnam	Ruby
 Summary:	Inline::Ruby - write Perl subroutines and classes in Ruby
-Summary(pl):	Inline::Ruby - pisanie funkcji i klas Perla w jêzyku Ruby
+Summary(pl.UTF-8):   Inline::Ruby - pisanie funkcji i klas Perla w jÄ™zyku Ruby
 Name:		perl-Inline-Ruby
 Version:	0.02
 Release:	3
@@ -30,11 +30,11 @@ dynamically translates the parameters and return values into native data
 types for both languages -- and it knows how to "wrap" most other types
 of data.
 
-%description -l pl
-Inline::Ruby pozwala na pisanie funkcji i klas Perla w jêzyku Ruby.
-Dynamicznie t³umaczy parametry i zwracane warto¶ci na typy danych
-natywne dla obu jêzyków oraz wie, jak przekszta³ciæ wiêkszo¶æ innych
-typów danych.
+%description -l pl.UTF-8
+Inline::Ruby pozwala na pisanie funkcji i klas Perla w jÄ™zyku Ruby.
+Dynamicznie tÅ‚umaczy parametry i zwracane wartoÅ›ci na typy danych
+natywne dla obu jÄ™zykÃ³w oraz wie, jak przeksztaÅ‚ciÄ‡ wiÄ™kszoÅ›Ä‡ innych
+typÃ³w danych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
