@@ -6,7 +6,7 @@
 %define		pdir	Inline
 %define		pnam	Ruby
 Summary:	Inline::Ruby - write Perl subroutines and classes in Ruby
-Summary(pl.UTF-8):   Inline::Ruby - pisanie funkcji i klas Perla w języku Ruby
+Summary(pl.UTF-8):	Inline::Ruby - pisanie funkcji i klas Perla w języku Ruby
 Name:		perl-Inline-Ruby
 Version:	0.02
 Release:	3
