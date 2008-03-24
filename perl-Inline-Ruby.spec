@@ -13,8 +13,9 @@ Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Inline/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	decffede80bc61e9772068a6424eb3ac
+URL:		http://search.cpan.org/dist/Inline-Ruby/
 BuildRequires:	perl-Inline >= 0.42
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
