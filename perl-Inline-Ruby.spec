@@ -66,7 +66,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Inline/Ruby.pm
 %dir %{perl_vendorarch}/auto/Inline/Ruby
-%{perl_vendorarch}/auto/Inline/Ruby/Ruby.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Inline/Ruby/Ruby.so
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
