@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Inline
 %define		pnam	Ruby
 Summary:	Inline::Ruby - write Perl subroutines and classes in Ruby
